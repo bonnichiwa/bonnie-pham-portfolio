@@ -188,6 +188,15 @@ img {
   padding: 3em 5em;
   display: inline-block;
   max-width: 20em;
+  opacity: .5;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+
+.portfolio .projects >li:hover {
+  opacity: 1;
 }
 
 .portfolio .projects > h2 {
