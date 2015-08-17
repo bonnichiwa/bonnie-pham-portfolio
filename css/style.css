@@ -50,8 +50,9 @@
 }
 
 .top-navigation> .content {
-  height: 2em;
-  padding: .3em 1em;
+  height: 1.5em;
+  margin-top: -0.8em;
+  margin-right: 1.5em;
   float: right;
 }
 
@@ -73,8 +74,8 @@
   background-image: url('http://i58.tinypic.com/11jlqg6.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  border-top: solid 1em #EEE0E5;
-  border-bottom: solid 1em #EEE0E5;
+  border-top: solid 1.5em #EEE0E5;
+  border-bottom: solid 1.5em #EEE0E5;
 }
 
 .masthead-intro {
